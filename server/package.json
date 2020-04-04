@@ -1,0 +1,22 @@
+{
+  "name": "sous-chef",
+  "version": "1.0.0",
+  "description": "Serves receipes for Ratatouille",
+  "main": "index.js",
+  "scripts": {
+    "develop": "tsc && nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathias Wirtz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^19.0.2",
+    "@types/node": "^13.11.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
