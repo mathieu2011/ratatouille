@@ -1,5 +1,5 @@
 import React from "react";
-import {Menu as MenuProps} from "../../model/nav/Menu"
+import {Menu as MenuProps} from "../../models/nav/Menu"
 
 class Menu extends React.Component<MenuProps> {
   render() {

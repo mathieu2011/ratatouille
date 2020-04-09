@@ -1,7 +1,7 @@
 import React from "react";
-import User from "../../model/User";
+import User from "../../models/User";
 import Menu from "./Menu";
-import NavItem from "../../model/nav/NavItem";
+import NavItem from "../../models/nav/NavItem";
 
 export class NavBar extends React.Component {
   render() {
