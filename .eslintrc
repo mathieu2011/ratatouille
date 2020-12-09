@@ -1,0 +1,51 @@
+{
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+    },
+    "env": {
+      "amd": true,
+      "es6": true
+    },
+    "globals": {
+      "afterEach": true,
+      "beforeAll": true,
+      "beforeEach": true,
+      "console": true,
+      "describe": true,
+      "expect": true,
+      "it": true,
+      "jest": true,
+      "module": true,
+      "process": true
+    },
+    "rules": {
+      "comma-dangle": [2, "never"],
+      "dot-notation": "error",
+      "eqeqeq": "warn",
+      "max-len": [
+        2,
+        {
+          "code": 120,
+          "tabWidth": 2,
+          "ignoreUrls": true
+        }
+      ],
+      "no-console": "warn",
+      "no-unused-vars": "warn",
+      "no-prototype-builtins": 1,
+      "one-var": [
+        "warn",
+        {
+          "var": "consecutive",
+          "let": "consecutive",
+          "const": "consecutive"
+        }
+      ],
+      "quotes": [2, "double"],
+      "quote-props": ["error", "as-needed"],
+      "no-var": 0
+    }
+  }
+  

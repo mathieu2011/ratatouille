@@ -1,0 +1,6 @@
+[submodule "shared/types"]
+	path = src/shared/types
+	url = git@github.com:mathieu2011/ratatuille-types.git
+[submodule "src/shared/types"]
+	path = src/shared/types
+	url = git@github.com:mathieu2011/ratatuille-types.git
